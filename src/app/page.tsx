@@ -190,8 +190,8 @@ export default function Home() {
             <h3 className="modal-title">Mission Protocol</h3>
             <div className="modal-content">
               <div className="protocol-card">
-                <div style={{background: "rgba(6, 182, 212, 0.1)", padding: "0.75rem", borderRadius: "12px", color: "var(--ion-cyan)"}}>
-                  <FileJson size={20} />
+                <div style={{background: "rgba(6, 182, 212, 0.1)", padding: "0.7rem", borderRadius: "10px", color: "var(--ion-cyan)", flexShrink: 0}}>
+                  <FileJson size={18} />
                 </div>
                 <div>
                   <b>1. NORMALIZER</b>
@@ -199,8 +199,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="protocol-card">
-                <div style={{background: "rgba(219, 39, 119, 0.1)", padding: "0.75rem", borderRadius: "12px", color: "var(--nebula-pink)"}}>
-                  <Terminal size={20} />
+                <div style={{background: "rgba(219, 39, 119, 0.1)", padding: "0.7rem", borderRadius: "10px", color: "var(--nebula-pink)", flexShrink: 0}}>
+                  <Terminal size={18} />
                 </div>
                 <div>
                   <b>2. LOG SCANNER</b>
@@ -208,8 +208,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="protocol-card">
-                <div style={{background: "rgba(16, 185, 129, 0.1)", padding: "0.75rem", borderRadius: "12px", color: "var(--emerald)"}}>
-                  <LayoutGrid size={20} />
+                <div style={{background: "rgba(16, 185, 129, 0.1)", padding: "0.7rem", borderRadius: "10px", color: "var(--emerald)", flexShrink: 0}}>
+                  <LayoutGrid size={18} />
                 </div>
                 <div>
                   <b>3. WEIGHTAGE</b>
@@ -217,7 +217,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <button className="btn-ion" onClick={() => setShowInfo(false)} style={{marginTop: "1.5rem", height: "50px", borderRadius: "14px"}}>Synchronize Control</button>
+            <button className="btn-ion" onClick={() => setShowInfo(false)} style={{height: "48px", borderRadius: "12px"}}>Synchronize Control</button>
           </div>
         </div>
       )}
